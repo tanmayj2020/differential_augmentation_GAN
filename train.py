@@ -65,7 +65,7 @@ def main():
             transforms.Resize(img_size),
             transforms.ToTensor(),
             #Normalized between -1 to 1 (tanh function)
-            transforms.Normalize([0.5 , 0.5 , 0.5] , [0.5 , 0..5 , 0.5]),
+            transforms.Normalize([0.5 , 0.5 , 0.5] , [0.5 , 0.5 , 0.5]),
         ]
     )
 
