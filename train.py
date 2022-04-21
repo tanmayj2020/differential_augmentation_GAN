@@ -83,7 +83,7 @@ def main():
     )
     #Output path and metadata 
     output_path = pathlib.Path("outputs")/args.name
-    output_path.mkdir(exists_ok = True , parents= True)
+    output_path.mkdir(exist_ok = True , parents= True)
 
     # Add other parameters(not included in CLI)
     args_dictionary["time"] = datetime.now()
