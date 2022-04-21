@@ -14,7 +14,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchvision.utils import make_grid
-import tqdm 
+from tqdm import tqdm
 
 from utils import init_weight
 from network import Generator , Discriminator
