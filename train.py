@@ -23,7 +23,7 @@ from parser import get_parser
 
 
 def main():
-    args = get_parser.parse_args()
+    args = get_parser().parse_args()
     args_dictionary = vars(args)
     print(args)
 
